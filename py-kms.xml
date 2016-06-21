@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
-<Beta>False</Beta>
-<Category>Network:Other</Category>
-  <Name>py-kms</Name>
+    <Beta>False</Beta>
+    <Category>Network:Other</Category>
+    <Name>Py-KMS</Name>
+    <Description>Py-KMS Key Management Service Emulator.[br][br]Listens on standard KMS port: [b]1688[/b]</Description>
 
-<Description>
-Py-KMS Key Management Service Emulator.[br][br]Listens on standard KMS port: [b]1688[/b]</Description>
-<GitHub>https://github.com/deathcubekx</GitHub>
-  <Repository>py-kms-docker</Repository>
+    <GitHub>https://github.com/deathcubekx/py-kms</GitHub>
+    <Repository>deathcubekx/py-kms</Repository>
 
-  <BindTime>true</BindTime>
-  <Privileged>false</Privileged>
-  <Networking>
-    <Mode>host</Mode>
-    <Publish>
-    </Publish>
-  </Networking>
-  <Icon>https://raw.githubusercontent.com/deathcubekx/py-kms-docker/master/key-icon.png</Icon>
-<ExtraParams></ExtraParams>
+    <BindTime>true</BindTime>
+    <Privileged>false</Privileged>
+    
+    <Networking>
+        <Mode>host</Mode>
+        <Publish></Publish>
+    </Networking>
+    
+    <Icon>https://raw.githubusercontent.com/deathcubekx/py-kms-docker/master/key-icon.png</Icon>
+    <ExtraParams></ExtraParams>
 </Containers>
