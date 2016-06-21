@@ -6,8 +6,8 @@
 
 <Description>
 Py-KMS Key Management Service Emulator.[br][br]Listens on standard KMS port: [b]1688[/b]</Description>
-<GitHub>https://github.com/deathcubekx/py-kms-docker</GitHub>
-  <Repository>deathcubekx/py-kms-docker</Repository>
+<GitHub>https://github.com/deathcubekx</GitHub>
+  <Repository>py-kms-docker</Repository>
 
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
