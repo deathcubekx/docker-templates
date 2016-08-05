@@ -41,22 +41,22 @@
     <Data>
     	<Volume>
     		<HostDir>/mnt/user/appdata/onlyoffice/CommunityServer/data</HostDir>
-    		<ContainterDir>/var/www/onlyoffice/Data</ContainerDir>
+    		<ContainerDir>/var/www/onlyoffice/Data</ContainerDir>
     		<Mode>rw</Mode>
     	</Volume>
     	<Volume>
     		<HostDir>/mnt/user/appdata/onlyoffice/CommunityServer/mysql</HostDir>
-    		<ContainterDir>/var/lib/mysql</ContainerDir>
+    		<ContainerDir>/var/lib/mysql</ContainerDir>
     		<Mode>rw</Mode>
     	</Volume>
     	<Volume>
     		<HostDir>/mnt/user/appdata/onlyoffice/CommunityServer/logs</HostDir>
-    		<ContainterDir>/var/log/onlyoffice</ContainerDir>
+    		<ContainerDir>/var/log/onlyoffice</ContainerDir>
     		<Mode>rw</Mode>
     	</Volume>
     	<Volume>
     		<HostDir>/mnt/user/appdata/onlyoffice/DocumentServer/data</HostDir>
-    		<ContainterDir>/var/www/onlyoffice/DocumentServerData</ContainerDir>
+    		<ContainerDir>/var/www/onlyoffice/DocumentServerData</ContainerDir>
     		<Mode>rw</Mode>
     	</Volume>
     </Data>
