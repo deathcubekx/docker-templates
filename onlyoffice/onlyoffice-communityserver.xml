@@ -4,7 +4,7 @@
     <Category>Network:Other</Category>
     <Name>OnlyOffice-CommunityServer</Name>
     <Description>OnlyOffice Community Server</Description>
-
+	<WebUI>http://[IP]:[PORT:80]</WebUI>
     <GitHub>https://github.com/ONLYOFFICE/Docker-CommunityServer</GitHub>
     <Repository>onlyoffice/communityserver</Repository>
     
