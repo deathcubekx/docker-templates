@@ -32,5 +32,5 @@
     </Networking>
     
     <Icon>https:http://a4.mzstatic.com/us/r30/Purple5/v4/af/6e/2c/af6e2cd3-974c-f62c-f754-ea1264ec051b/icon175x175.jpeg</Icon>
-    <ExtraParams></ExtraParams>
+    <ExtraParams>--hostname=mail.tgconsulting.local --dns=192.168.0.2</ExtraParams>
 </Containers>
