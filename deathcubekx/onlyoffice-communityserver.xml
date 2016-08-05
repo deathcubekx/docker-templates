@@ -16,7 +16,8 @@
     	<Variable>
       		<Name>MAIL_SERVER_DB_HOST</Name>
       		<Value>OnlyOffice-MailServer</Value>
-		</Variable>    
+		</Variable>
+    </Environment>
     <Networking>
         <Mode>bridge</Mode>
         <Publish>
