@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+    <Beta>False</Beta>
+    <Category>Network:Other</Category>
+    <Name>OnlyOffice-CommunityServer</Name>
+    <Description>OnlyOffice Community Server</Description>
+
+    <GitHub>https://github.com/ONLYOFFICE/Docker-CommunityServer</GitHub>
+    <Repository>onlyoffice/communityserver</Repository>
+    
+    <Environment>
+    	<Variable>
+      		<Name>DOCUMENT_SERVER_PORT_80_TCP_ADDR</Name>
+      		<Value>OnlyOffice-DocumentServer</Value>
+		</Variable>
+    	<Variable>
+      		<Name>MAIL_SERVER_DB_HOST</Name>
+      		<Value>OnlyOffice-MailServer</Value>
+		</Variable>    
+    <Networking>
+        <Mode>bridge</Mode>
+        <Publish>
+            <Port>
+        		<HostPort>80</HostPort>
+        		<ContainerPort>80</ContainerPort>
+        		<Protocol>tcp</Protocol>
+        	</Port>
+            <Port>
+        		<HostPort>5888</HostPort>
+        		<ContainerPort>5888</ContainerPort>
+        		<Protocol>tcp</Protocol>
+        	</Port>
+            <Port>
+        		<HostPort>443</HostPort>
+        		<ContainerPort>443</ContainerPort>
+        		<Protocol>tcp</Protocol>
+        	</Port>
+		</Publish>
+    </Networking>
+    <Data>
+    	<Volume>
+    		<HostDir>/mnt/user/appdata/onlyoffice/CommunityServer/data</HostDir>
+    		<ContainterDir>/var/www/onlyoffice/Data</ContainerDir>
+    		<Mode>rw</Mode>
+    	</Volume>
+    	<Volume>
+    		<HostDir>/mnt/user/appdata/onlyoffice/CommunityServer/mysql</HostDir>
+    		<ContainterDir>/var/lib/mysql</ContainerDir>
+    		<Mode>rw</Mode>
+    	</Volume>
+    	<Volume>
+    		<HostDir>/mnt/user/appdata/onlyoffice/CommunityServer/logs</HostDir>
+    		<ContainterDir>/var/log/onlyoffice</ContainerDir>
+    		<Mode>rw</Mode>
+    	</Volume>
+    	<Volume>
+    		<HostDir>/mnt/user/appdata/onlyoffice/DocumentServer/data</HostDir>
+    		<ContainterDir>/var/www/onlyoffice/DocumentServerData</ContainerDir>
+    		<Mode>rw</Mode>
+    	</Volume>
+    
+    <Icon>https:http://a4.mzstatic.com/us/r30/Purple5/v4/af/6e/2c/af6e2cd3-974c-f62c-f754-ea1264ec051b/icon175x175.jpeg</Icon>
+    <ExtraParams></ExtraParams>
+</Containers>
