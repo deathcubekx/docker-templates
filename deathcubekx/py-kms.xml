@@ -3,7 +3,7 @@
     <Beta>False</Beta>
     <Category>Network:Other</Category>
     <Name>Py-KMS</Name>
-    <Description>Py-KMS Key Management Service Emulator.[br][br]Listens on standard KMS port: [b]1688[/b]</Description>
+    <Description>Py-KMS Python-based Key Management Service Emulator.[br][br]Listens on standard KMS port: [b]1688[/b]</Description>
 
     <GitHub>https://github.com/deathcubekx/py-kms</GitHub>
     <Repository>deathcubekx/py-kms</Repository>
